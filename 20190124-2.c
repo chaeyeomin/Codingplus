@@ -1,16 +1,25 @@
-#include "pch.h"
-#include <iostream>
+#pragma warning(disable : 4996)
+
 #include<stdio.h>
 
+
+
 int main()
+
 {
+
 	int a;
-	int b = 1;
-	int c ;
-	c = a * b;
+
+	printf("1~9단 중 선택 : ");
+
 	scanf("%d", &a);
-	for (int i = 2; i < 10; i++) {
-		printf("%d \n", c);
+
+	for (int i = 1; i < 10; i++) {
+
+		printf("%d * %d = %d \n", a, i, a * i);
+
 	}
+
 	return 0;
+
 }
