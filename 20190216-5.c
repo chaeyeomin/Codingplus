@@ -6,6 +6,6 @@ int main()
 	int i;
 	scanf("%d", &i);
 	int* iPointer = &i;
-	printf("%p", &iPointer);
+	printf("%p", iPointer);
 	return 0;
 }
