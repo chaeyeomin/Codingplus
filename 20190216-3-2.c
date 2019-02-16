@@ -17,3 +17,7 @@ int main() {
 	num = addplusone(num);
 	printf("num %d", num);
 }
+
+
+
+//5 -> num 6
