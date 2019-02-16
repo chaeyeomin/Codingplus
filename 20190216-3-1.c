@@ -24,3 +24,6 @@ int main() {
 	//num = addplusone(num);
 	printf("num %d", arr[0]);
 }
+
+
+//5 -> num 6
