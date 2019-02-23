@@ -10,8 +10,9 @@ void add(int ary[ROW][COL])
 {
 	for (int i = 0; i < COL; i++)
 		for (int j = 0; j < 2; j++) {
-			ary[2][i] += ary[j][i];
-			ary[3][i] *= ary[j][i];
+			ary[2][i] += ary[j][i];  //*(*(ary + 2) + i) += *(*(ary + j) + i);/*
+			                        
+			ary[3][i] *= ary[j][i];  //*(*(ary + 3) + i) += *(*(ary + j) + i);/*
 		}
 }
 int main()
